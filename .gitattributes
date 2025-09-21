@@ -15,7 +15,7 @@
 
 # --- Scripts ---
 *.sh text eol=lf
-/gradlew text eol=lf
+/gradlew text eol=lf 00211
 # *.bat text eol=crlf   # batch file cho Windows
 
 # --- Binary (không bị đổi newline) ---

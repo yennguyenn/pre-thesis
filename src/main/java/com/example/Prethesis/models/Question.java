@@ -3,21 +3,18 @@ package com.example.Prethesis.models;
 import jakarta.persistence.*;
 import lombok.*;
 
-
 @Entity
-@Table(name = "majors")
+@Table(name = "questions")
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor
-public class Major {
+public class Question {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long majorId;
+    private Long questionId;
 
     @Column(nullable = false)
-    private String name;
-
-    @Column(columnDefinition = "TEXT")
-    private String description;
+    private String text;
 
     private String category;
-}
 
+    private Double weight;
+}

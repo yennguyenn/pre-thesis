@@ -1,4 +1,4 @@
-package com.example.Prethesis;
+package com.yennguyenn.Prethesis;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
